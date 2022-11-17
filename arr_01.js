@@ -1,7 +1,7 @@
 /*********   Theorie **********/
 
 // push() / pop()
-// push --> Daten rein ... (+)
+// push --> Daten rein ... (+) Hinten ran
 // let arr = [];
 // output(arr);
 // arr.push("Ich");
@@ -10,10 +10,11 @@
 // output(arr);
 // arr.push("Max");
 // output(arr);
-
+// arr.push("Mütze");
+// output(arr);
 // output(arr[arr.length-1]);
 
-// pop() --> Daten raus ... (-)
+// pop() --> Daten raus ... (-) Immer letzte Daten
 
 // output(arr.pop());
 // output(arr);
@@ -97,6 +98,6 @@ function getElement(tag,op) {
 
 // Modul: Ausgabe | Test
 //output("hi");
-function output(inputData) {
-    console.log(inputData);
+function output(outputData) {
+    console.log(outputData);
 }
